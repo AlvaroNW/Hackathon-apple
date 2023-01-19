@@ -1,3 +1,4 @@
+
 body{ /*cleared default settings and apply font for body, this ideally to be created as an absolute selector*/
     margin: 0;
     padding: 0;
@@ -97,4 +98,89 @@ color: grey;
     font-weight: bold;
     text-decoration: none;
     background-color: transparent;
+=======
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+footer{
+    position: relative;
+    min-width: 1024px;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color: #f5f5f7;
+    font-size: 12px;
+    color:#6e6e73;
+    font-weight: 400;
+    letter-spacing: .01em;
+    line-height: 1.33337;
+
+}
+ul{
+    list-style: none;
+}
+.content{
+    display: flex;
+    flex-flow: column wrap;
+    width: 980px;
+    margin: auto;
+}
+.toptext{
+    width: 100%;
+    text-align: left;
+    padding: 15px 0 25px 0;
+    border-bottom: 1px #d2d2d7 solid;
+    font-size: 1.1em
+}
+.vertical{
+    display: grid;
+    width: 100%;
+    height: 414.312px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin: 0 0 40px 0;
+    padding: 10px 0 20px;
+}
+
+.vertical li{
+    padding: 6px 0;
+    color: #424245;
+}
+.vertical h6{
+    font-size: 1em;
+    margin: 15px 0 6px 0;
+    color:#1d1d1f;
+}
+.horizontal{
+    display: flex;
+    width: 100%;
+    padding: 25px 0 7.5px 0;
+    border-bottom: 1px #d2d2d7 solid;
+}
+.copyr{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 7.5px 0;
+}
+.footer-nav{
+margin: 0 0 25px 0;
+}
+.navitems{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.navitems li{
+    padding: 0 10px 0 10px;
+    border-right: 1px #d2d2d7 solid;
+    color: #424245;
+}
+#listart{
+    padding: 0 10px 0 0;
+}
+#liend{
+    border-right: 0;
+}
+a{
+    color: #4B94F5;
 }
