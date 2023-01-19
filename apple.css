@@ -1,3 +1,104 @@
+
+body{ /*cleared default settings and apply font for body, this ideally to be created as an absolute selector*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px; 
+    color: #f5f5f7;
+    background-color: black;
+}
+.main-title{
+    text-align: center;
+    font-size: 1.5em;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto; /*margins auto to center content*/
+    background-color: black;
+}
+.button-wrap img{
+    width: 20px;
+    height: 20px;
+    display: flex;
+}
+.video-btn{
+    padding: 12px 22px;
+    text-align: center;
+    align-content: center;
+    border-radius: 25px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    color: #f5f5f7;
+    background-color: transparent;
+    border: #2997ff solid 2px;
+}
+
+.macBook-pro-container{
+    background-image: url(Macbook.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.macBook-pro-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.macBook-pro-title p{
+color: grey;
+}
+.buttons-macpro button{
+    color: #2997ff;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: transparent;
+}
+.mac-mini-container{
+    background-image: url(macmini.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    border-top: 15px solid #f5f5f7;
+}
+.mac-mini-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.mac-mini-title p{
+    color: grey;
+    }
+.buttons-macmini button{
+    color: #2997ff;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: transparent;
+}
+.homepod-container{
+    background-image: url(homepod.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    border-top: 15px solid #f5f5f7;
+}
+.homepod-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.homepod-title p{
+    color: grey;
+    }
+.buttons-homepod button{
+    color: #2997ff;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: transparent;
+=======
 *{
     margin:0;
     padding:0;
