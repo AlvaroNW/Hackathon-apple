@@ -41,10 +41,9 @@ body{ /*cleared default settings and apply font for body, this ideally to be cre
 }
 .video-btn:hover{
     color: black;
-    box-shadow: none;
+    box-shadow: 2px 1000px 1px #fff inset;
     background-color: white;
     background-image: none;
-    border: none;
    
 }
 .macBook-pro-container{
