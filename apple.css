@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-body{ /*cleared default settings and apply font for body, this ideally to be created as an absolute selector*/
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+body{ 
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
     font-size: 16px; 
     color: #f5f5f7;
     background-color: black;
@@ -16,16 +16,17 @@ body{ /*cleared default settings and apply font for body, this ideally to be cre
     margin-right: auto; /*margins auto to center content*/
     background-color: black;
     line-height: 60px;
-    font-size: 2em;
-    width: 75%;
+    font-size: 2.2em;
+    width: 40%;
 }
 .main-title button{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .button-wrap{
     display:flex;
     justify-content: center;
     align-content: center;
+    margin: 20px;
 }
 .video-btn{
     border-radius: 100rem;
@@ -52,6 +53,8 @@ body{ /*cleared default settings and apply font for body, this ideally to be cre
     background-repeat: no-repeat;
     background-size: cover;
     height: 550px;
+    margin-top: 120px;
+    cursor: pointer;
 }
 .macBook-pro-title{
     display: flex;
@@ -60,9 +63,13 @@ body{ /*cleared default settings and apply font for body, this ideally to be cre
     margin-top: 0;
 }
 .macBook-pro-title h2{
-    font-size: 2.5em;
+    font-size: 3em;
     font-weight: 550;
     margin-bottom: 5px;
+}
+.macBook-pro-title h3{
+    font-size: 1.5em;
+    font-weight: 300;
 }
 .macBook-pro-title p{
 color: grey;
@@ -75,6 +82,12 @@ margin-top: 10px;
     text-decoration: none;
     background-color: transparent;
     font-size: 1em;
+}
+.buttons-macpro a:link{
+    text-decoration: none;
+}
+.buttons-macpro a:hover{
+    text-decoration: underline;
 }
 .mac-mini-container{
     background-image: url(macmini.jpeg);
@@ -89,13 +102,17 @@ margin-top: 10px;
     flex-direction: column;
     text-align: center;
     margin-top: 80px;
+    cursor: pointer;
 }
 .mac-mini-title h2{
     font-size: 2.5em;
     font-weight: 550;
     margin-bottom: 5px;
     }
-
+    .mac-mini-title h3{
+        font-size: 1.5em;
+        font-weight: 300;
+    }
 .mac-mini-title p{
     color: grey;
     margin-bottom: 25px;
@@ -109,6 +126,12 @@ margin-top: 10px;
     font-size: 1em;
 
 }
+.buttons-macmini a:link{
+    text-decoration: none;
+}
+.buttons-macmini a:hover{
+    text-decoration: underline;
+}
 .homepod-container{
     background-image: url(homepod.jpeg);
     background-position: center;
@@ -116,6 +139,7 @@ margin-top: 10px;
     background-size: cover;
     height: 700px;
     border-top: 15px solid #f5f5f7;
+    cursor: pointer;
 }
 .homepod-title{
     display: flex;
@@ -128,6 +152,10 @@ margin-top: 10px;
     font-weight: 550;
     margin-bottom: 5px;
     }
+.homepod-title h3{
+    font-size: 1.5em;
+    font-weight: 300;
+}
 .homepod-title p{
     color: grey;
     margin-bottom: 25px;
@@ -139,6 +167,12 @@ margin-top: 10px;
     text-decoration: none;
     background-color: transparent;
     font-size: 1em;
+}
+.buttons-homepod a:link{
+    text-decoration: none;
+}
+.buttons-homepod a:hover{
+    text-decoration: underline;
 }
 
 footer{
