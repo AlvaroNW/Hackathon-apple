@@ -9,7 +9,7 @@ header {
 .navigator {
     justify-content: center;
     display: flex;
-    background-color: #3e3e3e;
+    background-color: #272729;
     border-radius: 4px;  
     font-size: 0.8em;
     height: 44px;
@@ -43,7 +43,11 @@ header {
     width: 100%;
     text-align: center;
     list-style: none;
-
+}
+.nav-list li:hover{
+    opacity: 80%;
+    transition: all .5s;
+    cursor: pointer;
 }
 .search-icon {
 
