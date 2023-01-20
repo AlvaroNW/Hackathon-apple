@@ -181,8 +181,8 @@ margin-top: 10px;
     font-weight: 400;
     text-decoration: none;
     background-color: transparent;
+    border: transparent;
     font-size: 1em;
-
 }
 .buttons-macmini a:link{
     text-decoration: none;
@@ -224,6 +224,7 @@ margin-top: 10px;
     font-weight: 400;
     text-decoration: none;
     background-color: transparent;
+    border: transparent;
     font-size: 1em;
 }
 .buttons-homepod a:link{
