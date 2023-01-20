@@ -9,7 +9,7 @@ header {
 .navigator {
     justify-content: center;
     display: flex;
-    background-color: #272729;
+    background-color:#1d1d1f;
     border-radius: 4px;  
     font-size: 0.8em;
     height: 44px;
