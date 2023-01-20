@@ -1,23 +1,16 @@
 * {
-   
-    color: #f5f5f7;
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
     box-sizing: border-box;
 }
 header {
     background-color: #2e2e2e;
-}
-body {
-    background-color: #1b1b1b;
 }
 .navigator {
 justify-content: center;
     display: flex;
     
 border-radius: 4px;  
-
-
 
 }
 
@@ -46,16 +39,266 @@ border-radius: 4px;
 }
 .search-icon {
 
-height: 20px;
-margin-left: 1em;
-
-
-}
-
-.shop {
-
-height: 20px;
-margin-left: 1.5em;
+    height: 20px;
+    margin-left: 1em;
     
+    
+    }
+    
+.shop {
+    
+    height: 20px;
+    margin-left: 1.5em;
+        
+    }
+body{ 
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 16px; 
+    color: #f5f5f7;
+    background-color: black;
+}
+.main-title{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; /*margins auto to center content*/
+    background-color: black;
+    line-height: 60px;
+    font-size: 2.2em;
+    width: 40%;
+}
+.main-title button{
+    margin-top: 30px;
+}
+.button-wrap{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+}
+.video-btn{
+    border-radius: 100rem;
+    padding: 1rem;
+    padding: .5rem 3rem;
+    color: white;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image:linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, red, purple, blue);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #000 inset;
+}
+.video-btn:hover{
+    color: black;
+    box-shadow: 2px 1000px 1px #fff inset;
+    background-color: white;
+    background-image: none;
+   
+}
+.macBook-pro-container{
+    background-image: url(macbook.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    margin-top: 120px;
+    cursor: pointer;
+}
+.macBook-pro-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0;
+}
+.macBook-pro-title h2{
+    font-size: 3em;
+    font-weight: 550;
+    margin-bottom: 5px;
+}
+.macBook-pro-title h3{
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.macBook-pro-title p{
+color: grey;
+margin-bottom: 25px;
+margin-top: 10px;
+}
+.buttons-macpro button{
+    color: #2997ff;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 1em;
+}
+.buttons-macpro a:link{
+    text-decoration: none;
+}
+.buttons-macpro a:hover{
+    text-decoration: underline;
+}
+.mac-mini-container{
+    background-image: url(macmini.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    border-top: 13px solid #f5f5f7;
+}
+.mac-mini-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 80px;
+    cursor: pointer;
+}
+.mac-mini-title h2{
+    font-size: 2.5em;
+    font-weight: 550;
+    margin-bottom: 5px;
+    }
+    .mac-mini-title h3{
+        font-size: 1.5em;
+        font-weight: 300;
+    }
+.mac-mini-title p{
+    color: grey;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    }
+.buttons-macmini button{
+    color: #2997ff;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 1em;
+
+}
+.buttons-macmini a:link{
+    text-decoration: none;
+}
+.buttons-macmini a:hover{
+    text-decoration: underline;
+}
+.homepod-container{
+    background-image: url(homepod.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    border-top: 15px solid #f5f5f7;
+    cursor: pointer;
+}
+.homepod-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 80px;
+}
+.homepod-title h2{
+    font-size: 2.5em;
+    font-weight: 550;
+    margin-bottom: 5px;
+    }
+.homepod-title h3{
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.homepod-title p{
+    color: grey;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    }
+.buttons-homepod button{
+    color: #2997ff;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 1em;
+}
+.buttons-homepod a:link{
+    text-decoration: none;
+}
+.buttons-homepod a:hover{
+    text-decoration: underline;
 }
 
+footer{
+    position: relative;
+    min-width: 1024px;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color: #f5f5f7;
+    font-size: 12px;
+    color:#6e6e73;
+    font-weight: 400;
+    letter-spacing: .01em;
+    line-height: 1.33337;
+
+}
+ul{
+    list-style: none;
+}
+.content{
+    display: flex;
+    flex-flow: column wrap;
+    width: 980px;
+    margin: auto;
+}
+.toptext{
+    width: 100%;
+    text-align: left;
+    padding: 15px 0 25px 0;
+    border-bottom: 1px #d2d2d7 solid;
+    font-size: 1.1em
+}
+.vertical{
+    display: grid;
+    width: 100%;
+    height: 414.312px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin: 0 0 40px 0;
+    padding: 10px 0 20px;
+}
+
+.vertical li{
+    padding: 6px 0;
+    color: #424245;
+}
+.vertical h6{
+    font-size: 1em;
+    margin: 15px 0 6px 0;
+    color:#1d1d1f;
+}
+.horizontal{
+    display: flex;
+    width: 100%;
+    padding: 25px 0 7.5px 0;
+    border-bottom: 1px #d2d2d7 solid;
+}
+.copyr{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 7.5px 0;
+}
+.footer-nav{
+margin: 0 0 25px 0;
+}
+.navitems{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.navitems li{
+    padding: 0 10px 0 10px;
+    border-right: 1px #d2d2d7 solid;
+    color: #424245;
+}
+#listart{
+    padding: 0 10px 0 0;
+}
+#liend{
+    border-right: 0;
+}
+a{
+    color: #4B94F5;
+} 
