@@ -9,7 +9,7 @@ header {
 .navigator {
     justify-content: center;
     display: flex;
-    background-color: black;
+    background-color: #3e3e3e;
     border-radius: 4px;  
     font-size: 0.8em;
     height: 44px;
@@ -102,6 +102,8 @@ body{
     box-shadow: 2px 1000px 1px #fff inset;
     background-color: white;
     background-image: none;
+    transition: ease-in-out .5s;
+    cursor: pointer;
    
 }
 .macBook-pro-container{
