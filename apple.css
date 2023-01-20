@@ -33,6 +33,9 @@ header {
 
     height: 20px;
 
+    margin-right: 2em;
+
+
 }
 .nav-list {
     display: flex;
