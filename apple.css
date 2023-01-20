@@ -3,6 +3,32 @@
     padding:0;
     box-sizing: border-box;
 }
+.arrange{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+.prettypress{
+    border-radius: 100rem;
+    padding: 1rem;
+    padding: .5rem 3rem;
+    color: white;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image:linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, red, purple, blue);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #000 inset;
+}
+.prettypress:hover{
+    color: black;
+    box-shadow: none;
+    background-image: none;
+    background-color: white;
+    border: none;
+   
+}
+
 footer{
     position: relative;
     min-width: 1024px;
