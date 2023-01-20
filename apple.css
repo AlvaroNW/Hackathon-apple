@@ -7,31 +7,36 @@ header {
     background-color: #2e2e2e;
 }
 .navigator {
-justify-content: center;
+    justify-content: center;
     display: flex;
-    
-border-radius: 4px;  
+    background-color: black;
+    border-radius: 4px;  
+    font-size: 0.8em;
+    height: 44px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 
 }
 
 .content-navigation {
     display: flex;
     justify-content: space-around;
-    width: 80%;
+    min-width: 1024px;
     text-align: center;
     list-style: none;
+    align-items: center;
     
 }
 .logo {
-    width: 30px;
+    width: 20px;
 
-    height: 30px;
+    height: 20px;
 
 }
 .nav-list {
     display: flex;
     justify-content: space-around;
-    
     width: 100%;
     text-align: center;
     list-style: none;
@@ -41,8 +46,7 @@ border-radius: 4px;
 
     height: 20px;
     margin-left: 1em;
-    
-    
+     
     }
     
 .shop {
@@ -51,14 +55,17 @@ border-radius: 4px;
     margin-left: 1.5em;
         
     }
+
 body{ 
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
     font-size: 16px; 
     color: #f5f5f7;
     background-color: black;
+
 }
 .main-title{
     text-align: center;
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto; /*margins auto to center content*/
     background-color: black;
