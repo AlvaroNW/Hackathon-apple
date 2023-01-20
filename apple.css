@@ -11,16 +11,18 @@ body{ /*cleared default settings and apply font for body, this ideally to be cre
 }
 .main-title{
     text-align: center;
-    font-size: 1.5em;
-    max-width: 500px;
     margin-left: auto;
     margin-right: auto; /*margins auto to center content*/
     background-color: black;
+    line-height: 60px;
+    font-size: 2em;
+    width: 75%;
 }
-.button-wrap img{
-    width: 20px;
-    height: 20px;
-    display: flex;
+.main-title button{
+    margin-top: 20px;
+}
+.button-wrap{
+    margin: 0;
 }
 .video-btn{
     padding: 12px 22px;
@@ -34,27 +36,35 @@ body{ /*cleared default settings and apply font for body, this ideally to be cre
     background-color: transparent;
     border: #2997ff solid 2px;
 }
-
 .macBook-pro-container{
     background-image: url(Macbook.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 550px;
 }
 .macBook-pro-title{
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top: 0;
+}
+.macBook-pro-title h2{
+    font-size: 2.5em;
+    font-weight: 550;
+    margin-bottom: 5px;
 }
 .macBook-pro-title p{
 color: grey;
+margin-bottom: 25px;
+margin-top: 10px;
 }
 .buttons-macpro button{
     color: #2997ff;
-    font-weight: bold;
+    font-weight: 400;
     text-decoration: none;
     background-color: transparent;
+    font-size: 1em;
 }
 .mac-mini-container{
     background-image: url(macmini.jpeg);
@@ -62,21 +72,32 @@ color: grey;
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
-    border-top: 15px solid #f5f5f7;
+    border-top: 13px solid #f5f5f7;
 }
 .mac-mini-title{
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top: 80px;
 }
+.mac-mini-title h2{
+    font-size: 2.5em;
+    font-weight: 550;
+    margin-bottom: 5px;
+    }
+
 .mac-mini-title p{
     color: grey;
+    margin-bottom: 25px;
+    margin-top: 10px;
     }
 .buttons-macmini button{
     color: #2997ff;
-    font-weight: bold;
+    font-weight: 400;
     text-decoration: none;
     background-color: transparent;
+    font-size: 1em;
+
 }
 .homepod-container{
     background-image: url(homepod.jpeg);
@@ -90,15 +111,24 @@ color: grey;
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top: 80px;
 }
+.homepod-title h2{
+    font-size: 2.5em;
+    font-weight: 550;
+    margin-bottom: 5px;
+    }
 .homepod-title p{
     color: grey;
+    margin-bottom: 25px;
+    margin-top: 10px;
     }
 .buttons-homepod button{
     color: #2997ff;
-    font-weight: bold;
+    font-weight: 400;
     text-decoration: none;
     background-color: transparent;
+    font-size: 1em;
 }
 footer{
     position: relative;
