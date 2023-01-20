@@ -3,6 +3,7 @@
     padding:0;
     box-sizing: border-box;
 }
+
 body{ /*cleared default settings and apply font for body, this ideally to be created as an absolute selector*/
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 16px; 
@@ -22,19 +23,29 @@ body{ /*cleared default settings and apply font for body, this ideally to be cre
     margin-top: 20px;
 }
 .button-wrap{
-    margin: 0;
+    display:flex;
+    justify-content: center;
+    align-content: center;
 }
 .video-btn{
-    padding: 12px 22px;
-    text-align: center;
-    align-content: center;
-    border-radius: 25px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    color: #f5f5f7;
-    background-color: transparent;
-    border: #2997ff solid 2px;
+    border-radius: 100rem;
+    padding: 1rem;
+    padding: .5rem 3rem;
+    color: white;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image:linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, red, purple, blue);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #000 inset;
+}
+.video-btn:hover{
+    color: black;
+    box-shadow: none;
+    background-color: white;
+    background-image: none;
+    border: none;
+   
 }
 .macBook-pro-container{
     background-image: url(macbook.jpeg);
@@ -130,6 +141,7 @@ margin-top: 10px;
     background-color: transparent;
     font-size: 1em;
 }
+
 footer{
     position: relative;
     min-width: 1024px;
