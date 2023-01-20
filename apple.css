@@ -3,12 +3,31 @@
     padding:0;
     box-sizing: border-box;
 }
-.arrange{
+
+body{ /*cleared default settings and apply font for body, this ideally to be created as an absolute selector*/
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px; 
+    color: #f5f5f7;
+    background-color: black;
+}
+.main-title{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; /*margins auto to center content*/
+    background-color: black;
+    line-height: 60px;
+    font-size: 2em;
+    width: 75%;
+}
+.main-title button{
+    margin-top: 20px;
+}
+.button-wrap{
     display:flex;
     justify-content: center;
     align-content: center;
 }
-.prettypress{
+.video-btn{
     border-radius: 100rem;
     padding: 1rem;
     padding: .5rem 3rem;
@@ -20,13 +39,107 @@
     background-clip: content-box, border-box;
     box-shadow: 2px 1000px 1px #000 inset;
 }
-.prettypress:hover{
+.video-btn:hover{
     color: black;
     box-shadow: none;
-    background-image: none;
     background-color: white;
+    background-image: none;
     border: none;
    
+}
+.macBook-pro-container{
+    background-image: url(macbook.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+.macBook-pro-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0;
+}
+.macBook-pro-title h2{
+    font-size: 2.5em;
+    font-weight: 550;
+    margin-bottom: 5px;
+}
+.macBook-pro-title p{
+color: grey;
+margin-bottom: 25px;
+margin-top: 10px;
+}
+.buttons-macpro button{
+    color: #2997ff;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 1em;
+}
+.mac-mini-container{
+    background-image: url(macmini.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    border-top: 13px solid #f5f5f7;
+}
+.mac-mini-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 80px;
+}
+.mac-mini-title h2{
+    font-size: 2.5em;
+    font-weight: 550;
+    margin-bottom: 5px;
+    }
+
+.mac-mini-title p{
+    color: grey;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    }
+.buttons-macmini button{
+    color: #2997ff;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 1em;
+
+}
+.homepod-container{
+    background-image: url(homepod.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    border-top: 15px solid #f5f5f7;
+}
+.homepod-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 80px;
+}
+.homepod-title h2{
+    font-size: 2.5em;
+    font-weight: 550;
+    margin-bottom: 5px;
+    }
+.homepod-title p{
+    color: grey;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    }
+.buttons-homepod button{
+    color: #2997ff;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 1em;
 }
 
 footer{
